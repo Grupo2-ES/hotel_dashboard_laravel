@@ -100,7 +100,7 @@
 						<div class="user-header">
 							<div class="avatar avatar-sm"> <img src="{{ URL::to('assets/img/profiles/avatar-01.jpg') }}" alt="User Image" class="avatar-img rounded-circle"> </div>
 								<div class="user-text">
-									<h6>Soeng Souy</h6>
+									<h6>Admin</h6>
 									<p class="text-muted mb-0">Administrator</p>
 								</div>
 							</div>

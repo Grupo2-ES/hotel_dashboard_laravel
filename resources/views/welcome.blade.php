@@ -23,7 +23,7 @@
         <div class="w3-bar-block">
         @if (Route::has('login'))
             <div class="hidden fixed top-0 left-0 px-6 py-4 sm:block">
-                    <a class="text-sm text-gray-700 dark:text-gray-500 underline" href="{{ route('login') }}">Log In Funcionários</a>
+                    <a class="text-sm text-gray-700 dark:text-gray-500 underline" href="{{ route('login') }}">Admin Login</a>
             </div>
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -122,7 +122,7 @@
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="/images/charmandash.png">
+        <img src="/images/egg.jpg">
         <div class="w3-container">
           <h3>Lopes</h3>
           <p class="w3-opacity"></p>
@@ -132,72 +132,6 @@
     </div>
 </div>
 
-  <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p></p>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16">
-          <h2></h2>
-          <span class="w3-opacity"></span>
-        </li>
-      </ul>
-    </div>
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-red w3-xlarge w3-padding-32"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16"></li>
-        <li class="w3-padding-16">
-          <h2></h2>
-          <span class="w3-opacity"></span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black"></button>
-        </li>
-      </ul>
-    </div>
-  </div>
-  
-  <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b></b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p></p>
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label></label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
-      </div>
-      <div class="w3-section">
-        <label></label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label></label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Submit Message</button>
-    </form>  
-  </div>
-
-<!-- End page content -->
-</div>
 <script>
 // Script to open and close sidebar
 function w3_open() {

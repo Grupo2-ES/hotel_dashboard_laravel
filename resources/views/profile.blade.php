@@ -18,7 +18,7 @@
                     <div class="profile-header">
                         <div class="row align-items-center">
                             <div class="col-auto profile-image">
-                                <a href="#"> <img class="rounded-circle" alt="User Image" src="assets/img/profiles/avatar-02.jpg"> </a>
+                                <a href="#"> <img class="rounded-circle" alt="User Image" src="assets/img/profiles/avatar-03.jpg"> </a>
                             </div>
                             <div class="col ml-md-n2 profile-user-info">
                                 <h4 class="user-name mb-3">{{ Auth::user()->name }}</h4>
