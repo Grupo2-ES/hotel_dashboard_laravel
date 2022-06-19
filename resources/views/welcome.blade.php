@@ -23,13 +23,13 @@
         <div class="w3-bar-block">
         @if (Route::has('login'))
             <div class="hidden fixed top-0 left-0 px-6 py-4 sm:block">
-                    <a class="text-sm text-gray-700 dark:text-gray-500 underline" href="{{ route('login') }}">Funcionários</a>
+                    <a class="text-sm text-gray-700 dark:text-gray-500 underline" href="{{ route('login') }}">Log In Funcionários</a>
             </div>
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
                     @else
-                        <a href=" " class="text-sm text-gray-700 dark:text-gray-500 underline">Log In Clientes</a>
+                        <a href=" " class="text-sm text-gray-700 dark:text-gray-500 underline">Log In</a>
 
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
