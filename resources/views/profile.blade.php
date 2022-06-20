@@ -18,19 +18,14 @@
                     <div class="profile-header">
                         <div class="row align-items-center">
                             <div class="col-auto profile-image">
-                                <a href="#"> <img class="rounded-circle" alt="User Image" src="assets/img/profiles/avatar-03.jpg"> </a>
+                                <img class="rounded-circle" alt="User Image" src="images/charmandash.png">
                             </div>
                             <div class="col ml-md-n2 profile-user-info">
                                 <h4 class="user-name mb-3">{{ Auth::user()->name }}</h4>
                                 <h6 class="text-muted mt-1">Manager</h6>
-                                <div class="user-Location mt-1"><i class="fas fa-map-marker-alt"></i> Florida, United States</div>
-                                <div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                <div class="user-Location mt-1"><i class="fas fa-map-marker-alt"></i> Portugal</div>
+                                <div class="about-text">Esta é a página do administrador</div>
                             </div>
-                            <div class="col-auto profile-btn"> <a href="" class="btn btn-primary">
-                            Message
-                            </a> <a href="edit-profile.html" class="btn btn-primary">
-                            Edit
-                            </a> </div>
                         </div>
                     </div>
                     <div class="profile-menu">
@@ -144,111 +139,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title d-flex justify-content-between">
-                                                <span>Personal Details</span>
-                                                <a class="edit-link" data-toggle="modal" href="#edit_personal_details"><i class="fa fa-edit mr-1"></i>Edit</a>
-                                                </h5>
-                                            <div class="row mt-5">
-                                                <p class="col-sm-3 text-sm-right mb-0 mb-sm-3">Name</p>
-                                                <p class="col-sm-9">David Alvarez</p>
-                                            </div>
-                                            <div class="row">
-                                                <p class="col-sm-3 text-sm-right mb-0 mb-sm-3">Date of Birth</p>
-                                                <p class="col-sm-9">24 Jul 1983</p>
-                                            </div>
-                                            <div class="row">
-                                                <p class="col-sm-3 text-sm-right mb-0 mb-sm-3">Email ID </p>
-                                                <p class="col-sm-9"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="385c594e515c59544e594a5d42785d40595548545d165b5755">[email&#160;protected]</a></p>
-                                            </div>
-                                            <div class="row">
-                                                <p class="col-sm-3 text-sm-right mb-0 mb-sm-3">Mobile</p>
-                                                <p class="col-sm-9">305-310-5857</p>
-                                            </div>
-                                            <div class="row">
-                                                <p class="col-sm-3 text-sm-right mb-0">Address</p>
-                                                <p class="col-sm-9 mb-0">4663 Agriculture Lane,
-                                                    <br> Miami,
-                                                    <br> Florida - 33165,
-                                                    <br> United States.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal fade" id="edit_personal_details1" aria-hidden="true" role="dialog">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title">Personal Details</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <form>
-                                                        <div class="row form-row">
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label>First Name</label>
-                                                                    <input type="text" class="form-control" value="John"> </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label>Last Name</label>
-                                                                    <input type="text" class="form-control" value="Doe"> </div>
-                                                            </div>
-                                                            <div class="col-12">
-                                                                <div class="form-group">
-                                                                    <label>Date of Birth</label>
-                                                                    <div class="cal-icon">
-                                                                        <input type="text" class="form-control" value="24-07-1983"> </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label>Email ID</label>
-                                                                    <input type="email" class="form-control" value="johndoe@example.com"> </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label>Mobile</label>
-                                                                    <input type="text" value="+1 202-555-0125" class="form-control"> </div>
-                                                            </div>
-                                                            <div class="col-12">
-                                                                <h5 class="form-title"><span>Address</span></h5> </div>
-                                                            <div class="col-12">
-                                                                <div class="form-group">
-                                                                    <label>Address</label>
-                                                                    <input type="text" class="form-control" value="4663 Agriculture Lane"> </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label>City</label>
-                                                                    <input type="text" class="form-control" value="Miami"> </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label>State</label>
-                                                                    <input type="text" class="form-control" value="Florida"> </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label>Zip Code</label>
-                                                                    <input type="text" class="form-control" value="22434"> </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6">
-                                                                <div class="form-group">
-                                                                    <label>Country</label>
-                                                                    <input type="text" class="form-control" value="United States"> </div>
-                                                            </div>
-                                                        </div>
-                                                        <button type="submit" class="btn btn-primary btn-block">Save Changes</button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </div>                               
                                 </div>
                             </div>
                         </div>
