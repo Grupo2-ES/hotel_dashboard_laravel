@@ -21,7 +21,7 @@
                                 {{-- message --}}
                                 {!! Toastr::message() !!}
                                 <p class="account-subtitle">Access to our dashboard</p>
-                                <form method="POST" action="{{ route('login') }}">
+                                <form method="POST" action="{{ route('loginCustomer') }}">
                                     @csrf
                                     <div class="form-group">
                                         <input class="form-control  @error('email') is-invalid @enderror" type="text"
