@@ -23,8 +23,6 @@ class CreateRoomsTable extends Migration
             $table->string('bed_count')->nullable();
             $table->string('charges_for_cancellation')->nullable();
             $table->string('rent')->nullable();
-            $table->string('phone_number')->nullable();
-            $table->string('fileupload')->nullable();
             $table->string('message')->nullable();
             $table->timestamps();
         });

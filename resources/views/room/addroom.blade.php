@@ -79,7 +79,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Taxas de Cancelamneto</label>
+                                    <label>Taxas de Cancelamento</label>
                                     <select class="form-control @error('charges_for_cancellation') is-invalid @enderror" id="charges_for_cancellation" name="charges_for_cancellation">
                                         <option disabled selected> --Selecionar--</option>
                                         <option value="Free">Grátis</option>

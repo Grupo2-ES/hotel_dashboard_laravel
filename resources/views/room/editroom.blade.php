@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('menu')
-@extends('sidebar.editroom')
+@extends('sidebar.addroom')
 @endsection
 @section('content')
     <style>
