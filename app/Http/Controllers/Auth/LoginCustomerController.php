@@ -13,7 +13,7 @@ use Carbon\Carbon;
 use Session;
 use Brian2694\Toastr\Facades\Toastr;
 
-class LoginCostumerController extends Controller
+class LoginCustomerController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
@@ -49,9 +49,9 @@ class LoginCostumerController extends Controller
         ]);
     }
 
-    public function loginCostumer()
+    public function loginCustomer()
     {
-        return view('auth.loginCostumer');
+        return view('auth.loginCustomer');
     }
 
     public function authenticate(Request $request)
@@ -80,7 +80,7 @@ class LoginCostumerController extends Controller
     {
         Auth::logout();
         Toastr::success('Logout successfully :)','Success');
-        return redirect('loginCostumer');
+        return redirect('loginCustomer');
     }
 
 }

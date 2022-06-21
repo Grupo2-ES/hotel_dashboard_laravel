@@ -12,13 +12,13 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rules\Password;
 
-class RegisterCostumerController extends Controller
+class RegisterCustomerController extends Controller
 {
-    public function registerCostumer()
+    public function registerCustomer()
     {
         // $role = DB::table('role_type_users')->get();
         // return view('auth.register',compact('role'));
-        return view('auth.registerCostumer');
+        return view('auth.registerCustomer');
     }
     public function storeUser(Request $request)
     {
@@ -42,6 +42,6 @@ class RegisterCostumerController extends Controller
             'password'  => Hash::make($request->password),
         ]);
         Toastr::success('Create new account successfully :)','Success');
-        return redirect('loginCostumer');
+        return redirect('loginCustomer');
     }
 }

@@ -8,7 +8,7 @@
                     <div class="login-right">
                         <div class="login-right-wrap">
                             <h1 class="mb-3">Register</h1>
-                            <form method="POST" action="{{ route('registerCostumer') }}">
+                            <form method="POST" action="{{ route('registerCustomer') }}">
                                 @csrf
                                 <div class="form-group">
                                     <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name"  placeholder="Enter Name" value="{{ old('name') }}" required autocomplete="name" autofocus>
@@ -31,7 +31,7 @@
                                 <span class="span-or">or</span>
                             </div>
                             <div class="text-center dont-have">Already have an account?
-                                <a href="{{ route('loginCostumer') }}">Login</a>
+                                <a href="{{ route('loginCustomer') }}">Login</a>
                             </div>
                         </div>
                     </div>

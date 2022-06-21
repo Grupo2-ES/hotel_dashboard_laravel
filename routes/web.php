@@ -88,12 +88,12 @@ Route::post('form/room/update', [App\Http\Controllers\RoomsController::class, 'u
 
 
 
-// -----------------------------loginCostumer----------------------------------------//
-Route::get('/loginCostumer', [App\Http\Controllers\Auth\LoginCostumerController::class, 'loginCostumer'])->name('loginCostumer');
-Route::post('/loginCostumer', [App\Http\Controllers\Auth\LoginCostumerController::class, 'authenticate']);
-Route::get('/logout', [App\Http\Controllers\Auth\LoginCostumerController::class, 'logout'])->name('logout');
+// -----------------------------loginCustomer----------------------------------------//
+Route::get('/loginCustomer', [App\Http\Controllers\Auth\LoginCustomerController::class, 'loginCustomer'])->name('loginCustomer');
+Route::post('/loginCustomer', [App\Http\Controllers\Auth\LoginCustomerController::class, 'authenticate']);
+Route::get('/logout', [App\Http\Controllers\Auth\LoginCustomerController::class, 'logout'])->name('logout');
 
 
-// ------------------------------ registerCostumer ---------------------------------//
-Route::get('/registerCostumer', [App\Http\Controllers\Auth\RegisterCostumerController::class, 'registerCostumer'])->name('registerCostumer');
-Route::post('/registerCostumer', [App\Http\Controllers\Auth\RegisterCostumerController::class, 'storeUser'])->name('registerCostumer');
+// ------------------------------ registerCustomer ---------------------------------//
+Route::get('/registerCustomer', [App\Http\Controllers\Auth\RegisterCustomerController::class, 'registerCustomer'])->name('registerCustomer');
+Route::post('/registerCustomer', [App\Http\Controllers\Auth\RegisterCustomerController::class, 'storeUser'])->name('registerCustomer');

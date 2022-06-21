@@ -30,7 +30,7 @@
                             </div>
                             <div class="login-or"><span class="or-line"></span> <span class="span-or">or</span></div>
                             <div class="text-center dont-have">Don’t have an account?
-                                <a href="{{ route('registerCostumer') }}">Register</a>
+                                <a href="{{ route('registerCustomer') }}">Register</a>
                             </div>
                         </div>
                     </div>
