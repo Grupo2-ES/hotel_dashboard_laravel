@@ -40,19 +40,19 @@
                         <div class="row formtype">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Customer ID</label>
+                                    <label>ID do Cliente</label>
                                     <input class="form-control" type="text" name="bkg_customer_id" value="{{ $customerEdit->bkg_customer_id }}" readonly>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Name</label>
+                                    <label>Nome</label>
                                     <input class="form-control" type="text" name="name" value="{{ $customerEdit->name }}">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Arrival Date</label>
+                                    <label>Data de Chegada</label>
                                     <div class="cal-icon">
                                         <input type="text" class="form-control datetimepicker" name="arrival_date" value="{{ $customerEdit->arrival_date }}">
                                     </div>
@@ -60,7 +60,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Depature Date</label>
+                                    <label>Data de Partida</label>
                                     <div class="cal-icon">
                                         <input type="text" class="form-control datetimepicker" name="depature_date" value="{{ $customerEdit->depature_date }}">
                                     </div>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Phone Number</label>
+                                    <label>Contacto Telefónico</label>
                                     <input type="text" class="form-control" id="phone_number" name="phone_number" value="{{ $customerEdit->ph_number }}">
                                 </div>
                             </div>

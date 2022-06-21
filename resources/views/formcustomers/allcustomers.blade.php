@@ -31,7 +31,7 @@
                                                 <th>Email</th>
                                                 <th>Contacto Telefónico</th>
                                                 <th>Status</th>
-                                                <th class="text-right">Definições</th>
+                                                <th class="text-right">Ações</th>
                                             </tr>
                                         </thead>
                                         <tbody>

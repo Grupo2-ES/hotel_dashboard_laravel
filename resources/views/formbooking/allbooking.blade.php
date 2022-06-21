@@ -25,15 +25,9 @@
                                 <table class="datatable table table-stripped table table-hover table-center mb-0">
                                     <thead>
                                         <tr>
-<<<<<<< HEAD
                                             <th>ID da Reserva</th>
                                             <th>Reserva em nome de</th>
                                             <th>Tipo de Quarto</th>
-=======
-                                            <th>Reserva ID</th>
-                                            <th>Nome</th>
-                                            <th>Tipo de quarto</th>
->>>>>>> 65414fd669cf74cc8c4e0715b26014e8d4b7c8bb
                                             <th>Número de Pessoas</th>
                                             <th>Data de Chegada</th>
                                             <th>Data de Partida</th>
@@ -94,7 +88,7 @@
                     <form action="{{ route('form/booking/delete') }}" method="POST">
                         @csrf
                         <div class="modal-body text-center"> <img src="{{ URL::to('assets/img/sent.png') }}" alt="" width="50" height="46">
-                            <h3 class="delete_class">Tem a certeza que quer apagar a reserva ?</h3>
+                            <h3 class="delete_class">Tem a certeza que quer apagar a reserva?</h3>
                             <div class="m-t-20">
                                 <a href="#" class="btn btn-white" data-dismiss="modal">Cancelar</a>
                                 <input class="form-control" type="hidden" id="e_id" name="id" value="">
