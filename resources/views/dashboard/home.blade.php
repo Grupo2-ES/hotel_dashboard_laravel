@@ -30,7 +30,6 @@
                                             <th>Email</th>
                                             <th class="text-center">Room Type</th>
                                             <th class="text-right">Number</th>
-                                            <th class="text-center">Status</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -45,7 +44,6 @@
                                             <td class="text-right">
                                                 <div>{{ $bookings->ph_number }}</div>
                                             </td>
-                                            <td class="text-center"> <span class="badge badge-pill bg-success inv-badge">INACTIVE</span> </td>
                                         </tr>
                                         @endforeach
                                     </tbody>

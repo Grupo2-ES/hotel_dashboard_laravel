@@ -25,8 +25,8 @@
 	<div class="main-wrapper">
 		<div class="header">
 			<div class="header-left">
-				<a href="index.html" class="logo"> <img src="{{ URL::to('assets/img/hotel_logo.png') }}" width="50" height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
-				<a href="index.html" class="logo logo-small"> <img src="{{ URL::to('assets/img/hotel_logo.png') }}" alt="Logo" width="30" height="30"> </a>
+				<a href="{{ route('home') }}" class="logo"> <img src="{{ URL::to('assets/img/hotel_logo.png') }}" width="50" height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
+				<a href="{{ route('home') }}l" class="logo logo-small"> <img src="{{ URL::to('assets/img/hotel_logo.png') }}" alt="Logo" width="30" height="30"> </a>
 			</div>
 			<a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
 			<a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
@@ -34,12 +34,12 @@
 				<li class="nav-item dropdown noti-dropdown">
 					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <i class="fe fe-bell"></i> <span class="badge badge-pill">3</span> </a>
 					<div class="dropdown-menu notifications">
-						<div class="topnav-dropdown-header"> <span class="notification-title">Notifications</span> <a href="javascript:void(0)" class="clear-noti"> Clear All </a> </div>
+						<div class="topnav-dropdown-header"> <span class="notification-title">Notificações</span> <a href="javascript:void(0)" class="clear-noti"> Clear All </a> </div>
 						<div class="noti-content">
 							<ul class="notification-list">
 							</ul>
 						</div>
-						<div class="topnav-dropdown-footer"> <a href="#">View all Notifications</a> </div>
+						<div class="topnav-dropdown-footer"> <a href="#">Ver todas as notificações </a> </div>
 					</div>
 				</li>
 				<li class="nav-item dropdown has-arrow">
@@ -52,7 +52,7 @@
 									<p class="text-muted mb-0">Administrator</p>
 								</div>
 							</div>
-						<a class="dropdown-item" href="{{ route('profile') }}">Profile</a> 
+						<a class="dropdown-item" href="{{ route('profile') }}">Perfil</a> 
 						<a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
 					</div>
 				</li>
