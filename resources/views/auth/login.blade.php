@@ -12,7 +12,7 @@
                             <h1>Login</h1>
                             {{-- message --}}
                             {!! Toastr::message() !!}
-                            <p class="account-subtitle">Access to our dashboard</p>
+                            <p class="account-subtitle">Acesso à Dashboard</p>
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
                                 <div class="form-group">

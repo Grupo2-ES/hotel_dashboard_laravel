@@ -17,7 +17,7 @@ class CreateIdGeRoomsTable extends Migration
         CREATE TRIGGER id_store_room BEFORE INSERT ON rooms FOR EACH ROW
             BEGIN
                 INSERT INTO room_sequences VALUES (NULL);
-                SET NEW.bkg_room_id = CONCAT("BKG-", LPAD(LAST_INSERT_ID(), 8, "0"));
+                SET NEW.bkg_room_id = CONCAT("ROOM-", LPAD(LAST_INSERT_ID(), 8, "0"));
             END
         ');
     }
