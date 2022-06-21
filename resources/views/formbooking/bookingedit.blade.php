@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('menu')
-@extends('sidebar.bookingedit')
+@extends('sidebar.bookingadd')
 @endsection
 @section('content')
     <style>
@@ -61,7 +61,6 @@
                                         <option value="Quad">Quad</option>
                                         <option value="King">King</option>
                                         <option value="Suite">Suite</option>
-                                        <option value="Villa">Villa</option>
                                     </select>
                                 </div>
                             </div>

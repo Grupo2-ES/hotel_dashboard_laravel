@@ -25,7 +25,7 @@
                                 <table class="table table-hover table-center">
                                     <thead>
                                         <tr>
-                                            <th>Booking ID</th>
+                                            <th>ID da Reserva</th>
                                             <th>Name</th>
                                             <th>Email</th>
                                             <th class="text-center">Room Type</th>

@@ -25,7 +25,6 @@ class CreateRoomTypesTable extends Migration
             ['room_name' => 'Quad'],
             ['room_name' => 'King'],
             ['room_name' => 'Suite'],
-            ['room_name' => 'Villa'],
         ]);
     }
 

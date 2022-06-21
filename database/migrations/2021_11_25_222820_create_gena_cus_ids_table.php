@@ -17,7 +17,7 @@ class CreateGenaCusIdsTable extends Migration
         CREATE TRIGGER id_store_cus BEFORE INSERT ON customers FOR EACH ROW
             BEGIN
                 INSERT INTO sequence_cuses VALUES (NULL);
-                SET NEW.bkg_customer_id = CONCAT("BKC-", LPAD(LAST_INSERT_ID(), 8, "0"));
+                SET NEW.bkg_customer_id = CONCAT("CUSTOMER-", LPAD(LAST_INSERT_ID(), 8, "0"));
             END
         ');
     }
