@@ -26,7 +26,7 @@
                                     <thead>
                                         <tr>
                                             <th>ID da Reserva</th>
-                                            <th>Nome do Cliente</th>
+                                            <th>Reserva em nome de</th>
                                             <th>Tipo de Quarto</th>
                                             <th>Número de Pessoas</th>
                                             <th>Data</th>

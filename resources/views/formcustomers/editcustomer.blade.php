@@ -52,42 +52,6 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Room Type</label>
-                                    <select class="form-control" id="sel2" name="room_type">
-                                        <option selected value="{{ $customerEdit->room_type }}">{{ $customerEdit->room_type }}</option>
-                                        <option value="Single">Single</option>
-                                        <option value="Double">Double</option>
-                                        <option value="Quad">Quad</option>
-                                        <option value="King">King</option>
-                                        <option value="Suite">Suite</option>
-                                        <option value="Villa">Villa</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label>Total Members</label>
-                                    <input class="form-control" type="number" name="total_numbers" value="{{ $customerEdit->total_numbers }}">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label>Date</label>
-                                    <div class="cal-icon">
-                                        <input type="text" class="form-control datetimepicker" name="date" value="{{ $customerEdit->date }}">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label>Time</label>
-                                    <div class="time-icon">
-                                        <input type="text" class="form-control" id="datetimepicker3" name="time" value="{{ $customerEdit->time }}">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
                                     <label>Arrival Date</label>
                                     <div class="cal-icon">
                                         <input type="text" class="form-control datetimepicker" name="arrival_date" value="{{ $customerEdit->arrival_date }}">
@@ -127,16 +91,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label>Message</label>
-                                    <textarea class="form-control" rows="1.5" id="message" name="message">{{ $customerEdit->message }}</textarea>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary buttonedit">Update</button>
+                <button type="submit" class="btn btn-primary buttonedit">Editar Cliente</button>
             </form>
         </div>
     </div>
