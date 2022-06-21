@@ -1,5 +1,12 @@
 @extends('layouts.app')
 @section('content')
+<div class="header">
+    <div class="header-left">
+        <a href="{{ url('/') }}" class="logo"> <img src="{{ URL::to('assets/img/hotel_logo.png') }}" width="50"
+                height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
+        <a href="{{ url('/') }}l" class="logo logo-small"> <img src="{{ URL::to('assets/img/hotel_logo.png') }}"
+                alt="Logo" width="30" height="30"> </a>
+    </div>
     <div class="main-wrapper login-body">
         <div class="login-wrapper">
             <div class="container">
@@ -27,11 +34,11 @@
                                 </div>
                             </form>
                             <div class="login-or">
-                                <span class="or-line"></span> 
-                                <span class="span-or">or</span> 
+                                <span class="or-line"></span>
+                                <span class="span-or">or</span>
                             </div>
-                            <div class="text-center dont-have">Already have an account? 
-                                <a href="{{ route('login') }}">Login</a> 
+                            <div class="text-center dont-have">Already have an account?
+                                <a href="{{ route('login') }}">Login</a>
                             </div>
                         </div>
                     </div>
