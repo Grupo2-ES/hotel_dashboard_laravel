@@ -44,7 +44,7 @@
                                             <td>{{ $bookings->bkg_id }}</td>
                                             <td>
                                                 <h2 class="table-avatar">
-                                                <a href="profile.html">{{ $bookings->name }}</a>
+                                                {{ $bookings->name }}
                                                 </h2>
                                             </td>
                                             <td>{{ $bookings->room_type }}</td>
