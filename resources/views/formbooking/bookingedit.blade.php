@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('menu')
-@extends('sidebar.bookingedit')
+@extends('sidebar.bookingadd')
 @endsection
 @section('content')
     <style>
