@@ -86,3 +86,15 @@ Route::get('form/room/edit/{bkg_room_id}', [App\Http\Controllers\RoomsController
 Route::post('form/room/save', [App\Http\Controllers\RoomsController::class, 'saveRecordRoom'])->middleware('auth')->name('form/room/save');
 Route::post('form/room/delete', [App\Http\Controllers\RoomsController::class, 'deleteRecord'])->middleware('auth')->name('form/room/delete');
 Route::post('form/room/update', [App\Http\Controllers\RoomsController::class, 'updateRecord'])->middleware('auth')->name('form/room/update');
+
+
+
+// -----------------------------loginCostumer----------------------------------------//
+Route::get('/loginCostumer', [App\Http\Controllers\Auth\LoginCostumerController::class, 'loginCostumer'])->name('loginCostumer');
+Route::post('/loginCostumer', [App\Http\Controllers\Auth\LoginCostumerController::class, 'authenticate']);
+Route::get('/logout', [App\Http\Controllers\Auth\LoginCostumerController::class, 'logout'])->name('logout');
+
+
+// ------------------------------ registerCostumer ---------------------------------//
+Route::get('/registerCostumer', [App\Http\Controllers\Auth\RegisterCostumerController::class, 'registerCostumer'])->name('registerCostumer');
+Route::post('/registerCostumer', [App\Http\Controllers\Auth\RegisterCostumerController::class, 'storeUser'])->name('registerCostumer');
